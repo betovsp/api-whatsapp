@@ -8,7 +8,7 @@ services:
     volumes:
     - api_zdg_sessions:/usr/src/app/sessions
     environment:
-      - API_KEY=comunidadezdg  # OPTIONAL
+      - API_KEY=icitecno  # OPTIONAL
       - BASE_WEBHOOK_URL=https://api-zap.icitecno.com.br/localCallbackExample
       - ENABLE_LOCAL_CALLBACK_EXAMPLE=TRUE # OPTIONAL, NOT RECOMMENDED FOR PRODUCTION
       - MAX_ATTACHMENT_SIZE=5000000 # IN BYTES
