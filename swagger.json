@@ -55,7 +55,7 @@
             "description": "OK"
           },
           "403": {
-            "description": "Forbidden.",
+            "description": "Proibido.",
             "content": {
               "application/json": {
                 "schema": {
@@ -93,7 +93,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Status of the initiated session.",
+            "description": "Status da sessão iniciada.",
             "content": {
               "application/json": {
                 "schema": {
@@ -103,7 +103,7 @@
             }
           },
           "403": {
-            "description": "Forbidden.",
+            "description": "Proibido.",
             "content": {
               "application/json": {
                 "schema": {
@@ -113,7 +113,7 @@
             }
           },
           "422": {
-            "description": "Unprocessable Entity.",
+            "description": "Entidade não processável.",
             "content": {
               "application/json": {
                 "schema": {
@@ -123,7 +123,7 @@
             }
           },
           "500": {
-            "description": "Server Failure.",
+            "description": "Falha no servidor.",
             "content": {
               "application/json": {
                 "schema": {
