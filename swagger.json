@@ -145,8 +145,8 @@
         "tags": [
           "Session"
         ],
-        "summary": "Get session status",
-        "description": "Status of the session with the given session ID.",
+        "summary": "Obtenha o status da sessão",
+        "description": "Status da sessão com o ID de sessão fornecido.",
         "parameters": [
           {
             "name": "sessionId",
@@ -155,13 +155,13 @@
             "schema": {
               "type": "string"
             },
-            "description": "Unique identifier for the session (alphanumeric and - allowed)",
+            "description": "Identificador exclusivo da sessão (alfanumérico e - permitido)",
             "example": "icitecno"
           }
         ],
         "responses": {
           "200": {
-            "description": "Status of the session.",
+            "description": "Status da sessão.",
             "content": {
               "application/json": {
                 "schema": {
@@ -171,7 +171,7 @@
             }
           },
           "403": {
-            "description": "Forbidden.",
+            "description": "Proibido.",
             "content": {
               "application/json": {
                 "schema": {
@@ -181,7 +181,7 @@
             }
           },
           "422": {
-            "description": "Unprocessable Entity.",
+            "description": "Entidade não processável.",
             "content": {
               "application/json": {
                 "schema": {
@@ -191,7 +191,7 @@
             }
           },
           "500": {
-            "description": "Server Failure.",
+            "description": "Falha no servidor.",
             "content": {
               "application/json": {
                 "schema": {
