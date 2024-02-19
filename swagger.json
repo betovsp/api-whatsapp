@@ -2,22 +2,22 @@
   "openapi": "3.0.0",
   "info": {
     "title": "WhatsApp API",
-    "description": "API Wrapper for WhatsAppWebJS",
+    "description": "Wrapper de API para WhatsAppWebJS",
     "version": "1.0.0"
   },
   "host": "",
   "tags": [
     {
       "name": "Session",
-      "description": "Handling multiple sessions logic, creation and deletion"
+      "description": "Lidando com lógica, criação e exclusão de múltiplas sessões"
     },
     {
       "name": "Client",
-      "description": "All functions related to the client"
+      "description": "Todas as funções relacionadas ao cliente"
     },
     {
       "name": "Message",
-      "description": "May fail if the message is too old (Only from the last 100 Messages of the given chat)"
+      "description": "Pode falhar se a mensagem for muito antiga (somente das últimas 100 mensagens do chat em questão)"
     }
   ],
   "paths": {
@@ -77,8 +77,8 @@
         "tags": [
           "Session"
         ],
-        "summary": "Start new session",
-        "description": "Starts a session for the given session ID.",
+        "summary": "Iniciar nova sessão",
+        "description": "Inicia uma sessão para o ID de sessão fornecido.",
         "parameters": [
           {
             "name": "sessionId",
@@ -87,7 +87,7 @@
             "schema": {
               "type": "string"
             },
-            "description": "Unique identifier for the session (alphanumeric and - allowed)",
+            "description": "Identificador exclusivo da sessão (alfanumérico e - permitido)",
             "example": "icitecno"
           }
         ],
