@@ -2437,7 +2437,7 @@
                   "value": {
                     "chatId": "5515998566622@c.us",
                     "contentType": "string",
-                    "content": "Seja bem vindo a Comunidade ZDG!"
+                    "content": "Seja bem vindo a ICITecno!"
                   }
                 },
                 "MessageMedia": {
@@ -2474,14 +2474,14 @@
                     "chatId": "5515998566622@c.us",
                     "contentType": "Buttons",
                     "content": {
-                      "body": "Seja bem vindo a Comunidade ZDG!",
+                      "body": "Seja bem vindo a ICITecno!",
                       "buttons": [
                         {
                           "body": "button 1"
                         }
                       ],
-                      "title": "Seja bem vindo a Comunidade ZDG!",
-                      "footer": "Seja bem vindo a Comunidade ZDG!"
+                      "title": "Seja bem vindo a ICITecno!",
+                      "footer": "Seja bem vindo a ICITecno!"
                     }
                   }
                 },
@@ -2490,8 +2490,8 @@
                     "chatId": "5515998566622@c.us",
                     "contentType": "List",
                     "content": {
-                      "body": "Seja bem vindo a Comunidade ZDG!",
-                      "buttonText": "Seja bem vindo a Comunidade ZDG!",
+                      "body": "Seja bem vindo a ICITecno!",
+                      "buttonText": "Seja bem vindo a ICITecno!",
                       "sections": [
                         {
                           "title": "sectionTitle",
@@ -2507,8 +2507,8 @@
                           ]
                         }
                       ],
-                      "title": "Seja bem vindo a Comunidade ZDG!",
-                      "footer": "Seja bem vindo a Comunidade ZDG!"
+                      "title": "Seja bem vindo a ICITecno!",
+                      "footer": "Seja bem vindo a ICITecno!"
                     }
                   }
                 },
